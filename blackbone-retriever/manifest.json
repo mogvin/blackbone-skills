@@ -1,0 +1,51 @@
+{
+  "name": "blackbone_retriever",
+  "display_name": "Blackbone Retriever",
+  "version": "1.0.0",
+  "description": "Universal data acquisition layer for the Blackbone ecosystem.",
+  "author": "Mogvin",
+  "license": "Proprietary",
+  "homepage": "https://github.com/blackbone-ai/blackbone-retriever",
+  "type": "skill",
+  "entry": "SKILL.md",
+  "platforms": [
+    "windows",
+    "linux",
+    "macos"
+  ],
+  "category": "software-development",
+  "tags": [
+    "blackbone",
+    "retriever",
+    "data",
+    "collector",
+    "normalizer",
+    "validator",
+    "cache",
+    "connector",
+    "hermes",
+    "gateway"
+  ],
+  "capabilities": [
+    "application-discovery",
+    "file-monitoring",
+    "api-collection",
+    "websocket-collection",
+    "database-collection",
+    "data-normalization",
+    "data-validation",
+    "caching",
+    "event-publishing",
+    "resource-monitoring"
+  ],
+  "dependencies": [],
+  "permissions": [
+    "filesystem-read",
+    "network",
+    "process-read",
+    "registry-read"
+  ],
+  "read_only": true,
+  "provider": "Blackbone",
+  "minimum_hermes_version": "0.15.1"
+}
